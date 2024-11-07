@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiAppHotel.Views.Sobre"
+             >
+    
+    <VerticalStackLayout Padding="20" Spacing="10">
+        <Label Text="Sobre"
+                   FontSize="Large"
+                   FontAttributes="Italic"
+                   HorizontalOptions="Center"
+                   TextColor="White"/>
+
+        <Label Text="Nós da Hotel Aconchegante lhe oeferemos o melhor do mercado, camas quando um se meche o outro não sente, traga seu melhor amigo pet para nosso hotel, temos parquinho, brinquedos e cuidadores para o seu pet. Temos suítes de diversos tamanhos para caber em seu bolso, uns com 1 quarto, outros com 4. A criançada vai amar nosso local reservado para brinquedos ao ar livre como pula-pula, gangorra, escorrega entre outros, alem do espaço para vídeo games, temos PlayStation 5, X-box Serius X, Super Nintendo, jogos VR e PC's com um enerme catálogo de jogos."
+                   TextColor="White"
+                   HorizontalOptions="Center"/>
+
+        <Label Text="Venha nos conhecer na Av. Na casa do caralho nº 666 em Chique-Chique Bahia"
+           TextColor="White"
+           HorizontalOptions="Center"/>
+
+        <Label Text="Ano de Desenvolvimento: 2024"
+                   FontSize="Medium"
+                   TextColor="White"
+                   HorizontalOptions="Center"/>
+
+        <Button Text="Voltar"
+        Clicked="VoltarHome"
+        BackgroundColor="#A563DA"
+        TextColor="White"
+        Margin="0, 10, 0, 0"/>
+        
+    </VerticalStackLayout>
+</ContentPage>
